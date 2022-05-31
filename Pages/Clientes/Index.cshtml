@@ -5,7 +5,7 @@
 
 <br>
 <h2>Listado de Clientes</h2>
-<a class='btn btn-primary btn-sm' href='/Clientes/Create'>Agregar Clientes</a>
+<a class='btn btn-primary btn-sm' href='/Clientes/Crear'>Agregar Cliente</a>
 <table class="table">
     <thead>
         <tr>
@@ -21,11 +21,11 @@
             <th>Opciones</th>
         </tr>
     </thead>
-        <tbody>
+    <tbody>
         @foreach(var item in Model.listaClientes)
         {
             <tr>
-                <td>@item.id 6</td>
+                <td>@item.id</td>
                 <td>@item.cedula</td>
                 <td>@item.nombres</td>
                 <td>@item.apellidos</td>
@@ -35,8 +35,8 @@
                 <td>@item.ciudad</td>
                 <td>@item.edad</td>
                 <td>
-                    <a class="btn btn-primary btn-sm" href="/Clients/Edit?id=@item.id">Editar</a> 
-                    <a class="btn btn-danger btn-sm" href="/Clients/Delete?id=@item.id">Borrar</a>
+                    <a class="btn btn-primary btn-sm" href="/Clientes/Edit?id=@item.id">Editar</a> 
+                    <a class="btn btn-danger btn-sm" href="/Clientes/Delete?id=@item.id">Borrar</a>
                 </td>
             </tr>
         }

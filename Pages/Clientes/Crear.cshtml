@@ -4,61 +4,61 @@
 }
 
 <br>
-<h2>Datos del Nuevo Cliente</h2>
+<h2>Agregar Cliente</h2>
 
 @if (Model.errorMessage.Length > 0)
 {
     <div class='alert alert-warning alert-dismissible fade show' role='alert'>
-        <strong>@Model.errorMessage</strong>
-        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+      <strong>@Model.errorMessage</strong>
+      <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
     </div>
 }
 
 <form method="POST">
-    <div class="row mb-3"> 
+    <div class="row mb-3">
         <label class="col-sm-3 col-form-label">Cedula</label>
         <div class="col-sm-6">
-          <input type="text" class="form-control" name="id" value="@Model.clienteInfo.id">
+          <input type="text" class="form-control" name="cedula" value="@Model.clienteInfo.cedula">
         </div>
-    </div> 
+    </div>
     <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">nombres</label>
+        <label class="col-sm-3 col-form-label">Nombres</label>
         <div class="col-sm-6">
           <input type="text" class="form-control" name="nombres" value="@Model.clienteInfo.nombres">
         </div>
     </div>
     <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">apellidos</label>
+        <label class="col-sm-3 col-form-label">Apellidos</label>
         <div class="col-sm-6">
           <input type="text" class="form-control" name="apellidos" value="@Model.clienteInfo.apellidos">
         </div>
     </div>
-     <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">telefono</label>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Telefono</label>
         <div class="col-sm-6">
           <input type="text" class="form-control" name="telefono" value="@Model.clienteInfo.telefono">
         </div>
     </div>
         <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">correo</label>
+        <label class="col-sm-3 col-form-label">Correo</label>
         <div class="col-sm-6">
           <input type="text" class="form-control" name="correo" value="@Model.clienteInfo.correo">
         </div>
     </div>
     <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">departamento</label>
+        <label class="col-sm-3 col-form-label">Departamento</label>
         <div class="col-sm-6">
           <input type="text" class="form-control" name="departamento" value="@Model.clienteInfo.departamento">
         </div>
     </div>
     <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">ciudad</label>
+        <label class="col-sm-3 col-form-label">Ciudad</label>
         <div class="col-sm-6">
           <input type="text" class="form-control" name="ciudad" value="@Model.clienteInfo.ciudad">
         </div>
     </div>
-    <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">edad</label>
+        <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Edad</label>
         <div class="col-sm-6">
           <input type="text" class="form-control" name="edad" value="@Model.clienteInfo.edad">
         </div>
@@ -66,22 +66,22 @@
 
     @if (Model.successMessage.Length > 0)
     {
-    <div class="row mb-3">
-        <div class="col-sm-9">
-            <div class='alert alert-success alert-dismissible fade show' role='alert'>
-              <strong>@Model.successMessage</strong>
-              <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+        <div class="row mb-3">
+            <div class="col-sm-9">
+                <div class='alert alert-success alert-dismissible fade show' role='alert'>
+                    <strong>@Model.successMessage</strong>
+                    <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                </div>
             </div>
         </div>
-    </div>
     }
 
     <div class="row mb-3">
         <div class="offset-sm-3 col-sm-3 d-grid">
-          <button type="submit" class="btn btn-primary">Crear</button>
+            <button type="submit" class="btn btn-primary">Agregar</button>
         </div>
         <div class="col-sm-3 d-grid">
-          <a class="btn btn-outline-primary" href="/" role="button">Cancelar</a>
+            <a class="btn btn-outline-primary" href="/" role="button">Cancelar</a>
         </div>
     </div>
 </form>
