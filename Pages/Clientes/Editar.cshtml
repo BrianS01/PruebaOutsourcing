@@ -1,11 +1,11 @@
 ﻿@page
-@model _220529PruebaTecnica.Pages.Clientes.CrearModel
+@model _220529PruebaTecnica.Pages.Clientes.EditarModel
 @{
     ViewData["Title"] = "Clientes";
 }
 
 <br>
-<h2>Agregar Cliente</h2>
+<h2>Editar Cliente</h2>
 
 @if (Model.errorMessage.Length > 0)
 {
@@ -16,6 +16,7 @@
 }
 
 <form method="POST">
+    <input type="hidden" name="id" value="@Model.clienteInfo.id">
     <div class="row mb-3">
         <label class="col-sm-3 col-form-label">Cedula</label>
         <div class="col-sm-6">
@@ -79,7 +80,7 @@
 
     <div class="row mb-3">
         <div class="offset-sm-3 col-sm-3 d-grid">
-            <button type="submit" class="btn btn-primary">Agregar</button>
+            <button type="submit" class="btn btn-primary">Editar</button>
         </div>
         <div class="col-sm-3 d-grid">
             <a class="btn btn-outline-primary" href="/Clientes/Index" role="button">Cancelar</a>

@@ -15,8 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\frederick\Documents\2022\Job Offers\Outsourcing\220529PruebaTecnica
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/frederick/Documents/2022/Job Offers/Outsourcing/220529PruebaTecnica/Pages/Clientes/Borrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcQm9ycmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/frederick/Documents/2022/Job Offers/Outsourcing/220529PruebaTecnica/Pages/Clientes/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frederick/Documents/2022/Job Offers/Outsourcing/220529PruebaTecnica/Pages/Clientes/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/frederick/Documents/2022/Job Offers/Outsourcing/220529PruebaTecnica/Pages/Clientes/Index.cshtml]
@@ -33,6 +41,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/frederick/Documents/2022/Job Offers/Outsourcing/220529PruebaTecnica/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frederick/Documents/2022/Job Offers/Outsourcing/220529PruebaTecnica/Pages/Reservas/Borrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNcQm9ycmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frederick/Documents/2022/Job Offers/Outsourcing/220529PruebaTecnica/Pages/Reservas/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNcQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frederick/Documents/2022/Job Offers/Outsourcing/220529PruebaTecnica/Pages/Reservas/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frederick/Documents/2022/Job Offers/Outsourcing/220529PruebaTecnica/Pages/Reservas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/frederick/Documents/2022/Job Offers/Outsourcing/220529PruebaTecnica/Pages/Shared/_ValidationScriptsPartial.cshtml]
